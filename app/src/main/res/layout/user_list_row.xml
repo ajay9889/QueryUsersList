@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="7dp"
+    android:orientation="vertical"
+    android:background="@drawable/blue_background"
+    tools:ignore="MissingPrefix">
+        <LinearLayout
+            android:id="@+id/user_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:layout_margin="5dp"
+            >
+            <ImageView
+                android:id="@+id/user_photo"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+
+                android:src="@mipmap/user_default"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_marginLeft="5dp"
+
+                >
+                <TextView
+                    android:id="@+id/name"
+                    fontPath="Roboto-Light.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:text="@string/gender"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"/>
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender"
+
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium" />
+                <TextView
+                    android:id="@+id/email"
+                    fontPath="Roboto-Light.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ajay@singsys.com"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DataUtilities</string>
+    <string name="place_your_fingerprint_sensor">Place your finger in the Fingerprint sensor.</string>
+    <string name="error_permission_missing">Error: Fingerprint authentication permission not enabled. Please add %s to the manifest</string>
+</resources>

@@ -1,0 +1,11 @@
+
+For building the whole project
+SL-156Ajay-Mac:UsersInformation SL156$ ./gradlew assemble
+Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+
+BUILD SUCCESSFUL in 4m 20s
+105 actionable tasks: 56 executed, 49 up-to-date
+SL-156Ajay-Mac:UsersInformation SL156$
+
+build the library project only using this command:
+./gradlew datautilities:build

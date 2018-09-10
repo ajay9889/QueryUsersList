@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#202020</color>
+    <color name="menu_bg">#202020</color>
+    <color name="cicular_color">#f79421</color>
+    <color name="grey_transparent_layout">#30000000</color>
+    <color name="white">#ffffff</color>
+    <color name="hint_colour">#70ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_rectangular">#50708bc0</color>
+    <color name="bg_solid_rectangular">#485a7e</color>
+    <color name="navigation_colour">#000000</color>
+    <color name="blue_button">#708bc0</color>
+</resources>
